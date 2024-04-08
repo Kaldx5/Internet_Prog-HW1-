@@ -1,44 +1,65 @@
-# Internet_Prog-HW1-
-Eid al-Fitr Event Website
-Welcome to our Eid al-Fitr Event Website repository! This website is dedicated to providing information and updates about our upcoming Eid al-Fitr celebration.
+# Eid al-Fitr Celebration Website
 
-Overview
-Our Eid al-Fitr Event Website serves as a central hub for all information related to our event, including event details, photo galleries, and contact information.
+Welcome to the Eid al-Fitr Celebration Website repository! This website is dedicated to celebrating Eid al-Fitr, marking the end of Ramadan. It features event details, upcoming events, a photo gallery, and contact information.
 
-Features
-Event Details: Learn about the date, location, and description of our Eid al-Fitr celebration.
-Photo Gallery: View photos from past events and get a glimpse of what to expect.
-Contact: Reach out to us for inquiries, feedback, or to RSVP for the event.
-Technologies Used
-HTML5
-CSS3 (including responsive design techniques)
-JavaScript
-SVG graphics
-Technical Requirements
-To run the website locally, you need a web browser that supports HTML5, CSS3, and JavaScript.
+## Screenshots
+![Screenshot (4)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/a89dd596-fb4a-44f7-8cf0-c3bdbcf28bbc)
 
-Additional Features
-Responsive Design: The website is designed to adapt to various screen sizes, ensuring a seamless experience across devices.
-Countdown Timer: A dynamic countdown timer on the homepage provides a live countdown to the event.
-Browser Storage: Utilizes browser storage to persist countdown timer state across page transitions.
-Getting Started
-Clone the repository: git clone https://github.com/your-username/eid-al-fitr-event-website.git
-Navigate to the project directory.
-Open index.html in your preferred web browser.
-Screenshots
+![Screenshot (6)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/ca61f59b-2f87-4356-a208-3913edeedae8)
+![Screenshot (7)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/b2894168-c85e-4642-9c76-00c56a5d2cea)
+![Screenshot (8)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/5b5c4eb6-0f48-4b9b-94fe-f0a084f77f38)
 
-![Screenshot (4)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/26d42e28-844d-415f-8804-76746ed027dd)
 
-![Screenshot (6)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/4ca868f4-2fb1-49e7-ae0a-dd2f26cbee0d)
+## Features
 
-![Screenshot (7)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/3a4f242e-160c-46af-9617-0aef2e91c8a0)
+- **Homepage:** Information about the Eid al-Fitr celebration and upcoming events.
+- **Event Details:** Detailed information about the Eid al-Fitr event.
+- **Gallery:** A collection of photos from previous celebrations.
+- **Contact:** Contact information and a contact form.
 
-![Screenshot (8)](https://github.com/Kaldx5/Internet_Prog-HW1-/assets/96445641/e3a63fbe-d1a2-4c5e-a00b-8d160f59453a)
+## Responsive Design
 
-Contributors:
-    KHALED ALREFAI
-    Khaled Hussein
-    Abdolrhman Alshatfa
+The website is designed to be responsive, ensuring compatibility with various screen sizes and devices.
 
-License
-This project is licensed under the MIT License.
+## Countdown Timer
+
+A countdown timer on the homepage displays the time remaining until the Eid al-Fitr celebration. The timer persists even when navigating away from the homepage.
+
+## Additional Features
+
+- Custom styling with CSS, including text shadows and box shadows.
+- SVG animation on the contact page.
+- Navigation bar with dynamic resizing based on screen width.
+- Gallery layout optimized for all display sizes.
+
+## Technical Details
+
+- **Technologies:** HTML, CSS, JavaScript
+- **Browser Storage:** Utilized to persist countdown timer across page navigation.
+- **Responsive Design:** Implemented using media queries and flexible layout techniques.
+- **SVG Animation:** Created using SVG markup and CSS animations.
+
+## Project Planning Process
+The project was planned and executed in multiple stages:
+1. Initial brainstorming to define the scope and features of the website
+2. Designing wireframes and mockups for each page
+3. Implementation of the HTML structure and content
+4. Styling using CSS to enhance visual appearance and layout
+5. Adding interactivity and functionality with JavaScript
+6. Testing across various devices and screen sizes to ensure responsiveness and compatibility
+
+## Conclusion and Discussion
+The Eid al-Fitr event website provides a comprehensive platform for sharing information and engaging with the community for the celebration of Eid al-Fitr. The use of modern web technologies and responsive design techniques ensures a seamless user experience across different devices.
+
+## Contributors
+- [Khaled Alrefai](https://github.com/Kaldx5).
+-Khaled Hussein.
+-Abdolrhman Alshatfa.
+## License
+This project is licensed under the [MIT License](LICENSE).
+## References
+
+- [Bootstrap](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [W3Schools](https://www.w3schools.com/)
