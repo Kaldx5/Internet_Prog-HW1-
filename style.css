@@ -1,0 +1,478 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #f5dfd2; /* Dark brown text color */
+}
+
+header {
+    background-color: #b2a622; 
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #000; /* Black background for navigation */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Change the color to white */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #B22222; 
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Specific Page Styles */
+#featured-events {
+    background-color: transparent; /* Set background to transparent */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adding shadow */
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #1c1b17; 
+    }
+    
+}
+
+#featured-events h2,
+#featured-events p {
+    background-color: rgba(48, 47, 45, 0.6); 
+    padding: 10px; /* Add padding to text elements */
+    margin: 0; /* Remove default margins */
+    border-radius: 5px; 
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #2f2f2f; 
+    }
+    
+}
+
+
+
+/* Event Details Page Styles */
+.event-info {
+    margin-bottom: 20px;
+}
+
+.description, .participants, .comments {
+    margin-bottom: 20px;
+}
+
+/* Event Details Form Styles */
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#comment-form input[type="text"],
+#comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #B22222; /* Deep red border */
+}
+
+#comment-form button {
+    background-color: #B22222; /* Deep red button background */
+    color: #ffffff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #3C2415; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3C2415; /* Dark brown */
+    background-color: #FFFFFF; /* White */
+}
+
+/* Header styles */
+header {
+    background-color: #febf00; /* Gold */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Shadow effect */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #ffffff; 
+}
+h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffcfa; /* Dark brown */
+    font-weight: bold;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Upcoming Events section styles */
+#upcoming-events {
+    margin-top: 50px;
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #131310; /* Shadow with color #b7ac69 */
+    }
+    
+}
+#upcoming-events .event p {
+    color: #ffffff; /* Light gray color */
+} 
+
+#upcoming-events h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #B22222; /* Deep red */
+    margin-bottom: 20px;
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #12110f; /* Shadow with color #b7ac69 */
+    }
+    
+}
+
+.event {
+    border: 2px solid #B22222; /* Deep red */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #B22222; /* Deep red */
+    margin-bottom: 10px;
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #181715; /* Shadow with color #b7ac69 */
+    }
+    
+}
+
+.event p {
+    margin-bottom: 10px;
+    color: #ffffff;
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #0b0b0a; /* Shadow with color #b7ac69 */
+    }
+    
+}
+
+.event p strong {
+    font-weight: bold;
+    .shadowed-text {
+        text-shadow: 2px 2px 4px #000000; /* Shadow with color #b7ac69 */
+    }
+    
+}
+
+/* Footer styles */
+footer {
+    background-color: #f3ca00; /* Gold */
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+/* Add this CSS rule to your style.css file */
+header h1 {
+    color: rgb(206, 34, 34);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change the background color if needed */
+    color: #fff; /* Change the text color if needed */
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    text-shadow: 2px 2px 4px #0c0c0b; /* Shadow with color #b7ac69 */
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Set the position of the background image */
+    border: 1px solid #633333; /* Add a light gray border around the pages */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills the viewport height */
+}
+
+main {
+    flex-grow: 1; /* Allow the main content area to grow and fill the available space */
+}
+
+main {
+    border: 1px solid #c59595; /* Add a light gray border around the main content area */
+    margin: 20px; /* Adjust the margin for better appearance */
+}
+.gradient-text {
+    background: linear-gradient(to right, #000000 30%, #ee4b2b 40%, #10100f 70%, #714b00 80%, #9a3c4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#featured-events .content {
+    color: #e69d00; /* Light color for text */
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Shadow behind the text */
+}
+/* Countdown Timer Styles */
+#countdown-timer {
+    background-color: #3b3a38; /* Background color */
+    color: #fff; /* Text color */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(133, 132, 132, 0.1);
+}
+
+.countdown-content h2 {
+    margin-bottom: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown div {
+    margin: 0 10px;
+}
+
+#countdown span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.timer-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+header {
+    background-color: #ffd711; /* Yellow background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(133, 132, 132, 0.1); /* 3D effect with box-shadow */
+}
+/* Increase font size and add a friendly style to the text in the "Event Details" section */
+#event-details {
+    font-size: 1.2em; /* Increase font size */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for a friendly style */
+    text-emphasis-position: over right;
+}
+
+#event-details h2 {
+    font-size: 2em; /* Increase font size for section headings */
+}
+
+#event-details p {
+    line-height: 1.5; /* Increase line height for better readability */
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Additional styling for the form elements */
+.form-group {
+    margin-bottom: 20px; /* Adjust the margin between form elements */
+}
+
+/* Custom styling for form labels */
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Custom styling for form inputs */
+.form-control {
+    width: 100%; /* Make the form inputs fill the available width */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Custom styling for the submit button */
+.btn-primary {
+    background-color: #fcd307; /* Yellow background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #ffda47; /* Lighter yellow color on hover */
+}
+/* Countdown Timer Styles */
+#countdown-timer {
+    opacity: 0.7; /* Set visibility to 40% */
+    background-color: #3b3a38; /* Background color */
+    color: #fff; /* Text color */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(133, 132, 132, 0.1);
+}
+
+.countdown-content h2 {
+    margin-bottom: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown div {
+    margin: 0 10px;
+}
+
+#countdown span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.timer-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #fffbfb;
+    
+
+}
+
+#countdown div {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.timer-label {
+    font-size: 0.8rem;
+    color: #e4e4e4;
+}
+
+/* Custom styles for photo gallery */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container full height */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-set {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #050505; /* Light gray border */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery-item {
+    width: 400px; /* Adjust the width as needed for larger photos */
+    border: 1px solid #242323; /* Light gray border */
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflow if the image is larger than the container */
+}
+
+.gallery-item img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Example media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .gallery-item {
+        width: 100%; /* Set the width to 100% for smaller screens */
+    }
+}
+
+/* Default styles for gallery items */
+.gallery-item {
+    width: 400px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 100%; /* Set the width to 100% for smaller screens */
+    }
+}

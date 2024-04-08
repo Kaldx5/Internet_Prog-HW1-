@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid al-Fitr Celebration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            text-shadow: 2px 2px 4px #0c0c0b; /* Shadow with color #b7ac69 */
+            background-image: url('evde.jpg'); /* Replace 'background.jpg' with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center bottom; /* Set the position of the background image */
+            border: 1px solid #633333; /* Add a light gray border around the pages */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body fills the viewport height */
+        }
+        #event-details * {
+            text-emphasis-position: over right;
+            text-shadow: 2px 2px 5px #333;
+        }
+        /* Custom styles for header */
+        header {
+            background-color: #fcd307; /* Yellow background */
+            padding: 20px;
+            box-shadow: 0px 5px 10px rgba(145, 5, 5, 0.9); /* Add shadow */
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        nav ul {
+            background-color: #000; /* Black background for navigation */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="gradient-text">Eid al-Fitr Celebration</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event_details.html">Event Details</a></li> <!-- Updated link -->
+                    <li><a href="events.html">upcoming-events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+    <main>
+        <section id="event-details">
+            <h2>Event Details</h2>
+            <div class="event-info">
+                <h3>Eid al-Fitr</h3>
+                <p>Date: 3 may, 2024</p>
+                <p>Time: 00:00</p>
+                <p>Location: Istanbul</p>
+            </div>
+            <div class="description">
+                <h3>Description</h3>
+                <p>
+                    Eid al-Fitr, also known as the "Festival of Breaking the Fast," is a religious holiday celebrated by Muslims worldwide. <br>It marks the end of Ramadan, the Islamic holy month of fasting, prayer, reflection, and community.
+                </p>
+            </div>
+            <div class="participants">
+                <h3>Participants</h3>
+                <ul>
+                    <li>Muslim community members</li>
+                    <li>Family and friends</li>
+                </ul>
+            </div>
+            <div class="comments">
+                <h3>Comments</h3>
+                <!-- Hardcoded comments section goes here -->
+                <div class="comment">
+                    <p class="comment-author">John Doe</p>
+                    <p class="comment-text">This event was fantastic! Can't wait for the next one.</p>
+                </div>
+                <div class="comment">
+                    <p class="comment-author">Jane Smith</p>
+                    <p class="comment-text">I had a great time at the event. Thanks for organizing!</p>
+                </div>
+                <!-- Add more comments as needed -->
+            </div>
+            <div class="comments" id="comments-container">
+                <h3>Comments</h3>
+                <!-- Existing comments will be displayed here -->
+            </div>            
+            <form id="comment-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eid al-Fitr Celebration. All rights reserved.</p>
+    </footer>
+
+    <!-- Place your script tag at the end of the body -->
+    <script src="script.js"></script>
+</body>
+</html>

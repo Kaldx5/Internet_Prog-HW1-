@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-shadow: 2px 2px 4px #0c0c0b; /* Shadow with color #b7ac69 */
+            background-image: none; /* Remove the background image */
+             background-color: #efe5ca; /* Set yellow background color */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center bottom; /* Set the position of the background image */
+            border: 1px solid #633333; /* Add a light gray border around the pages */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body fills the viewport height */
+        }
+          .shadowed-text {
+        text-shadow: 2px 2px 4px #000000; /* Shadow with color #b7ac69 */
+        }
+
+        header {
+            background-color: #fcd307; /* Yellow background */
+            padding: 20px;
+            box-shadow: 0px 5px 10px rgba(145, 5, 5, 0.9); /* Add shadow */
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            .shadowed-text {
+         text-shadow: 2px 2px 4px #2d2d2d; /* Shadow with color #b7ac69 */
+        }
+
+        }
+
+        nav ul {
+            background-color: #000; /* Black background for navigation */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="gradient-text">upcoming-events</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event_details.html">Event Details</a></li> <!-- Updated link -->
+                    <li><a href="events.html">upcoming-events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <div class="event">
+                <h3>Eid al-Fitr Celebration</h3>
+                <p><strong>Date:</strong> May 3, 2024</p>
+                <p><strong>Location:</strong> Istanbul</p>
+                <p><strong>Description:</strong> Join us for a joyous celebration of Eid al-Fitr, marking the end of Ramadan. Festivities will include traditional food, music, and cultural performances.</p>
+            </div>
+            <!-- Add more events here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eid al-Fitr Celebration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
