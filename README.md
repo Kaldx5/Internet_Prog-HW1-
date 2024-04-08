@@ -53,8 +53,8 @@ The Eid al-Fitr event website provides a comprehensive platform for sharing info
 
 ## Contributors
 - [Khaled Alrefai](https://github.com/Kaldx5).
--Khaled Hussein.
--Abdolrhman Alshatfa.
+- Khaled Hussein.
+- Abdolrhman Alshatfa.
 ## License
 This project is licensed under the [MIT License](LICENSE).
 ## References
